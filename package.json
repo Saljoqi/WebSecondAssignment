@@ -1,0 +1,19 @@
+{
+  "scripts": {
+  "start": "node index.js",
+  "build": "node index.js"
+},
+"name": "signin_signup_api",
+"version": "1.0.0",
+"author": "Qazi_Muhammad_Aflah",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3"
+  }
+
+}
