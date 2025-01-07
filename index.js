@@ -14,7 +14,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'default_secret_key';
 app.use(express.json());
 
 // MongoDB Connection URI
-const uri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/userDB';
+const uri = process.env.MONGODB_URI;
 
 mongoose
   .connect(uri, {
