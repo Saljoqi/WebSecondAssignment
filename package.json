@@ -5,6 +5,7 @@
 },
 "name": "signin_signup_api",
 "version": "1.0.0",
+  "type": "module",
 "author": "Qazi_Muhammad_Aflah",
   "dependencies": {
     "bcrypt": "^5.1.1",
