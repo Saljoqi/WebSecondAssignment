@@ -1,6 +1,6 @@
 {
   "scripts": {
-  "start": "node index.js",
+  "start": "node index.js"
 },
 "name": "signin_signup_api",
 "version": "1.0.0",
